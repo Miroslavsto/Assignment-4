@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PS3P1"/>
+        <attribute name="authors" value="alexe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-06 10:56:51 AM"/>
+        <attribute name="created" value="YWxleGU7TUlDSElHQU47MjAyNS0wMi0wNjsxMDozNToyNCBBTTsyMzY0"/>
+        <attribute name="edited" value="YWxleGU7TUlDSElHQU47MjAyNS0wMi0wNjsxMDo1Njo1MSBBTTsxOzI0NzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="exam1" type="Real" array="False" size=""/>
+            <declare name="exam2" type="Real" array="False" size=""/>
+            <declare name="totalScore" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the first exame score ( out of 100):&quot;" newline="True"/>
+            <input variable="exam1"/>
+            <output expression="&quot;Enter the second exam score ( out of 100):&quot;" newline="True"/>
+            <input variable="exam2"/>
+            <assign variable="totalScore" expression="(exam1 * 0.6) + (exam2 * 0.4)"/>
+            <output expression="&quot;The total weighted score is:&quot; &amp;totalScore" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
